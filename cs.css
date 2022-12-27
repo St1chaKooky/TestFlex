@@ -1,0 +1,89 @@
+.list{
+    position: absolute;
+    width: 510px;
+    height: 240px;
+    left: 63px;
+    top: 194px;
+    border: 1px solid blue;
+    border-image:linear-gradient(102.11deg, #356EFF, #58DBD3 , #1ECF45);
+    border-image-slice:1;
+    display: flex;
+    flex-direction: column;
+}
+.el{
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    position: absolute;
+    width: 512px;
+    height: 50px;
+    left: -1px;
+    top: -1px;
+    border: 1px solid blue;
+    border-image:linear-gradient(102.11deg, #356EFF, #58DBD3 , #1ECF45);
+    border-image-slice:1;
+    border-radius: 15px;
+}
+
+
+.textInfo{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 98px;
+    height: 17px;
+    left: 27px;
+    top: 17px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.checkMark{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 417px;
+    top: 14px;
+    border: none;
+}
+.checkMarkImg{
+    position: absolute;
+width: 21px;
+height: 21px;
+left: 0px;
+top: 0px;
+transition: 0.2s;
+}
+.checkMarkImg:hover{
+    transform: scale(1.2);
+}
+.cross{
+    position: absolute;
+width: 36px;
+height: 34px;
+left: 450px;
+top: 8px;
+border: none;
+}
+.crossImg{
+    position: absolute;
+width: 36px;
+height: 34px;
+left: 0px;
+top: 0px;
+transition: 0.2s;
+}
+.crossImg:hover{
+    transform: scale(1.2);
+}
+button:hover{
+    cursor: pointer;
+}
